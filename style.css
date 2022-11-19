@@ -2,7 +2,6 @@ body{
     background: #322B2B;
     font-family: monospace;
     font-weight: bold;
-    font-size: large;
     color: #a82c2c;
     text-align: center;
 }
@@ -13,13 +12,16 @@ body{
     color: antiquewhite;
     font-family: 'Rock Salt', cursive
 }
+.title-category{
+    font-size: 23px;
+}
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5%;
+    margin: 2% 5%;
 }
-.card, .card2{
+.card{
     padding: 30px;
     margin: 2%;
     width: 100px;
@@ -29,28 +31,32 @@ body{
     transition: .2s all;
     cursor: pointer;
 }
-.card{
+#raft{
     background-image:url(img/LOGOraft.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.card2{
+#mundial{
     background-image:url(img/mundial\ logo.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.container:hover .card, .container:hover .card2{
+#kinoplus{
+    background-image:url(img/kinoplus-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container:hover .card{
     filter: blur(3px);
     opacity: .5;
     transform: scale(.98);
     box-shadow: none;
 }
-.container:hover .card:hover, .container:hover .card2:hover{
+.container:hover .card:hover{
     transform: scale(1);
     filter: blur(0px);
     opacity: 1;
     box-shadow: 0 2px 3px 0px rgba(0,0,0,0.125);
     background-color: #a82c2c;
     color: white;
-    font-size: xx-large;
 }
