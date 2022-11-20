@@ -46,6 +46,11 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 }
+#github{
+    background-image:url(img/qrcode_github.com.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .container:hover .card{
     filter: blur(3px);
     opacity: .5;
