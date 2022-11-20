@@ -30,6 +30,7 @@ body{
     border-radius: 3px;
     transition: .2s all;
     cursor: pointer;
+    color: white;
 }
 #raft{
     background-image:url(img/LOGOraft.png);
