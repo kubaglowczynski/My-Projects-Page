@@ -4,7 +4,7 @@ body{
     font-weight: bold;
     color: #a82c2c;
     text-align: center;
-    cursor:url("img/cursor-icon.png"), auto;
+    cursor:url("img/curson-icon.png"), auto;
 }
 .title{
     margin: 0;
@@ -57,6 +57,7 @@ body{
     opacity: .5;
     transform: scale(.98);
     box-shadow: none;
+    cursor:url("img/cursor-icon-hover.png"), auto;
 }
 .container:hover .card:hover{
     transform: scale(1);
